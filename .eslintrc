@@ -1,0 +1,19 @@
+{
+    "extends": "@antfu",
+    "rules": {
+        "semi": "off",
+        "@typescript-eslint/semi": ["off"],
+        "indent": ["error", 4],
+        "@typescript-eslint/indent": ["error", 4],
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/html-self-closing": "off",
+        "vue/html-indent": ["error", 4],
+        "no-console": "off",
+        "curly": "off",
+        "quotes": "off",
+        "@typescript-eslint/member-delimiter-style": "off",
+        "space-before-function-paren": "off",
+        "@typescript-eslint/brace-style": "off",
+        "prefer-regex-literals": "off"
+    }
+}
